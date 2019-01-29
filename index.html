@@ -1,20 +1,76 @@
 <!DOCTYPE html>
+<html lang="en"> <!-- Shayna Provine
 
-<html lang="en">
+Example code snippets taken from:
+https://www.w3schools.com/bootstrap/
+https://getbootstrap.com/docs/4.0/examples/
+
+-->
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8"> 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-	<title>The HTML5 Herald</title>
-	<meta name="description" content="My personal website.">
-	<meta name="author" content="Shayna Provine">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
-	<link rel="stylesheet" href="style.css">
+    <!-- Mobile support -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title> Bootstrap &lt;3 Home </title>
 </head>
 
 <body>
-	<h1> Hi, I'm Shayna! </h1>
-	
-	<p> I love octopi! </p>
+
+    <!-- Naviagation Bar -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="index.html">Bootstrap &lt;3</a>
+	    </div>
+
+	    <ul class="nav navbar-nav">
+	      <li><a href="index.html">Home</a></li>
+	      <li><a href="eloboosters/index.html">Elo Boosters</a></li>
+
+	      <li class="nav-dropdown">
+		      <div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Click here for a drop-down menu
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+			  	<li class="dropdown-header">Bootstrap Classes</li>
+			    <li><a href="wells.html">Wells</a></li>
+			    <li><a href="alerts.html">Alerts</a></li>
+			    <li><a href="buttons.html">Buttons</a></li>
+			    <li><a href="pager.html">Pagers</a></li>
+			    <li class="divider"></li>
+			  	<li class="dropdown-header">Example Website</li>
+			    <li><a href="eloboosters/eloboosters.html">Elo Boosters</a></li>
+			    <li class="divider"></li>
+			  	<li class="dropdown-header">Additional Resources</li>
+			    <li><a href="https://getbootstrap.com/">GetBootstrap</a></li>
+			    <li><a href="https://mdbootstrap.com/">MDBootstrap</a></li>
+			    <li><a href="https://www.w3schools.com/bootstrap/">W3Schools</a></li>
+			  </ul>
+			</div></li>
+	    </ul>
+
+	  </div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1> I &lt;3 Bootstrap </h1>
+			<h3> —A bootstrap appreciation page. </h3>
+		</div>
+		<div class="alert alert-info" roke="alert">
+			Click on the drop-down menu in the header.
+		</div>
+	</div>
+
 </body>
 </html>
