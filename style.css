@@ -152,7 +152,7 @@ iframe {
 	padding-top: 2px;
 	background-color: grey;
 	color: white;
-	text-align: center;
+	
 }
 
 .contact {
@@ -179,6 +179,7 @@ iframe {
 	margin-top: 4em;
 	margin-bottom: 2em;
   display: none;
+  text-align: center;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -261,9 +262,10 @@ iframe {
 }
 
 h1 {
-	background: white;
-	color:grey;
-	display: inline-block;
-	margin-top: 1.5em;
+	border-bottom: black 3px solid;
+	color:white;
 	font-size: 4em;
+	margin-left: 0.25em;
+	margin-top: 0.5em;
+	margin-bottom: 1.5em;
 }
