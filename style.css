@@ -154,10 +154,15 @@ iframe {
 	padding-top: 2px;
 	background-color: grey;
 	color: white;
+	text-align: center;
 }
 
 .contact {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	text-align: center;
+}
+
+.description {
+	margin-top: 2em;
 }
