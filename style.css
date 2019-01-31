@@ -176,6 +176,8 @@ iframe {
 
 /* Hide the images by default */
 .slideshow {
+	margin-top: 5em;
+	margin-bottom: 2em;
   display: none;
 }
 
@@ -200,10 +202,14 @@ iframe {
   user-select: none;
   -webkit-user-select: none;
 }
-
+.prev {
+	left:0;
+	margin-left: 18em;
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  margin-right: 18em;
   border-radius: 3px 0 0 3px;
 }
 
@@ -219,7 +225,8 @@ iframe {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  left: 0;
+  margin-left: 30em;
 }
 
 /* Container for image text */
