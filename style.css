@@ -3,10 +3,11 @@ body {
 	color: black;
 }
 h3, h4 {
-	margin: 10px 0 30px 0;
+	margin: 10px 10px 20px 0;
 	letter-spacing: 10px;      
-	font-size: 20px;
+	font-size: 30px;
 	color: #111;
+	margin-left: 10px;
 }
 .container {
 	padding: 80px;
@@ -125,8 +126,8 @@ textarea {
 .main-container {
 	width: 100%;
 	text-align: left;
-	margin-top: 10.0em;
-	
+	margin-top: 16.0em;
+	margin-bottom: 24.0em;
 }
 
 h2 {
@@ -146,10 +147,17 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 .shibemon {
-	padding-top: 1px;
+	padding-top: 2px;
 	background-color: grey;
+	color: white;
+}
+
+.contact {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
 }
