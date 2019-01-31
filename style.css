@@ -1,6 +1,7 @@
 body {
 	font: 400 15px/1.8 Lato, sans-serif;
-	color: black;
+	color: grey;
+	color:white;
 }
 h3, h4 {
 	margin: 10px 10px 20px 0;
@@ -105,7 +106,7 @@ h3, h4 {
 .dropdown-menu li a:hover {
 	background-color: red !important;
 }
-footer {
+/*footer {
 	background-color: #2d2d30;
 	color: #f5f5f5;
 	padding: 32px;
@@ -116,7 +117,7 @@ footer a {
 footer a:hover {
 	color: #777;
 	text-decoration: none;
-}  
+}  */
 .form-control {
 	border-radius: 0;
 }
@@ -156,9 +157,10 @@ iframe {
 }
 
 .contact {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 10em;
 	text-align: center;
+	background: grey;
+	color:white;
 }
 
 .description {
@@ -250,4 +252,8 @@ h1 {
 	margin-left: 0.25em;
 	margin-top: 0.5em;
 	margin-bottom: 2em;
+}
+
+.contacttitle {
+	color:grey;
 }
