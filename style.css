@@ -176,7 +176,7 @@ iframe {
 
 /* Hide the images by default */
 .slideshow {
-	margin-top: 5em;
+	margin-top: 4em;
 	margin-bottom: 2em;
   display: none;
 }
@@ -194,7 +194,7 @@ iframe {
   top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
+  margin-top: 50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -258,4 +258,12 @@ iframe {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+h1 {
+	background: white;
+	color:grey;
+	display: inline-block;
+	margin-top: 1.5em;
+	font-size: 4em;
 }
