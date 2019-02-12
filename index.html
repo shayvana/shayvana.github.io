@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<script>
+var myUrl = 'https://sprovine.github.io';
+ 
+if(window.top.location.href !== myUrl) {
+    window.top.location.href = myUrl;
+}
+</script>
+<script type="text/javascript" language="javascript">
+// <![CDATA[
+function resizeIframe(obj) {  
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';   
+    obj.contentDocument.body.style.overflowX = "hidden";
+}
+// ]]>
+</script>
+<iframe style="width: 100%; padding: 0; border: none;" 
+        src="hellotf.html" 
+        onload="javascript:resizeIframe(this);"/>
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
+ 
   <title>Shayna Provine</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
